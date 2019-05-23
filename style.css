@@ -1,0 +1,117 @@
+/* orange: #E65425
+yellow: #EFEEC5
+green: #20968b
+black: 0B161D */
+
+body {
+  font-family: 'Lato';
+  font-size: 12px;
+  background-color: #0B161D;
+}
+
+header {
+  height: 10vh;
+  background-color: #20968b;
+  box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,.1), inset 0 -1px 0 rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 5;
+}
+
+section {
+  position: relative;
+  top: 10vh;
+  padding: 4rem;
+  text-align: center;
+  color: #EFEEC5;
+}
+
+ul {
+  margin: 1rem;
+  list-style: circle;
+}
+
+li {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+
+main {
+  position: relative;
+  background-color: #eee;
+  top: 10vh;
+  padding: 4rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  padding: .5rem;
+}
+
+.row {
+  display: flex;
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  width: 40vw;
+  text-align: left;
+}
+
+.left p {
+  max-width: 35vw;
+}
+
+.right {
+  width: 25vw;
+}
+
+.about {
+  display: flex;
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio-left {
+  width: 25vw;
+}
+
+.bio-right {
+  width: 40vw;
+}
+
+span {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+p {
+  font-size: 1.5rem;
+  padding: .5rem;
+  line-height: 2rem;
+}
+
+img {
+  width: 20vw;
+  height: auto;
+  padding: 0.5rem;
+}
+
+footer {
+  height: 5vh;
+  position: relative;
+  top: 10vh;
+  padding: 5vh 0;
+  color: #f0EDC5;
+}
