@@ -1,5 +1,6 @@
 # MLH Localhost – Get Crackin' with Git using GitKraken
-
+Pull finger
+git fart
 In this workshop, participants learn how to use GitKraken's Git Client and Glo Boards to collaborate on a project. This is the source code for that project! 
 
 ## Host This Workshop 
